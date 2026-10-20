@@ -1,11 +1,21 @@
-streamlit
-opencv-python
-mediapipe
-numpy
-python-dotenv
-groq
-pyttsx3
-Pillow 
+# YogaCare AI - Dependencies
+# AI-Powered Yoga Posture Detection & Guidance System
 
+# Core Computer Vision & Image Processing
+opencv-python>=4.8.0.76
+numpy>=1.24.0,<3.0.0
 
-pip install -r requirements.txt
+# Deep Learning Pose Models
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Optional / Secondary Pose Engine (MediaPipe Tasks API)
+mediapipe>=1.0.0; python_version < '3.14'
+
+# Phase 3: Web Dashboard & Voice Assistant
+streamlit>=1.28.0
+pyttsx3>=2.90
+
+# Testing Framework
+pytest>=7.4.0
