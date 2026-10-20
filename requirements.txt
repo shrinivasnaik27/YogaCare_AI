@@ -1,0 +1,11 @@
+streamlit
+opencv-python
+mediapipe
+numpy
+python-dotenv
+groq
+pyttsx3
+Pillow 
+
+
+pip install -r requirements.txt
